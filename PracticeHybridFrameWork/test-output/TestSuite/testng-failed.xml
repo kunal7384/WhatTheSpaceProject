@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.practice.utility.listeners"/>
+    <listener class-name="com.practice.utility.ExtentReporterNG"/>
+    <listener class-name="com.practice.utility.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="firefox Login(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.practice.testcases.LoginTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="verifu_Login"/>
+        </methods>
+      </class> <!-- com.practice.testcases.LoginTest -->
+    </classes>
+  </test> <!-- firefox Login(failed) -->
+  <test thread-count="5" name="firefox End2End(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.practice.testcases.E2ETest">
+        <methods>
+          <include name="close"/>
+          <include name="validLogin"/>
+          <include name="setup"/>
+          <include name="viewProfile"/>
+          <include name="loginDataDriven" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.practice.testcases.E2ETest -->
+    </classes>
+  </test> <!-- firefox End2End(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

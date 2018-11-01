@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="98" passed="98">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="868426" started-at="2018-11-01T10:28:51Z" finished-at="2018-11-01T10:43:19Z">
+    <groups>
+    </groups>
+    <test name="SignUp" duration-ms="42580" started-at="2018-11-01T10:28:51Z" finished-at="2018-11-01T10:29:33Z">
+      <class name="com.practice.testcases.SignUpTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.SignUpTest@51399530]" name="setup" is-config="true" duration-ms="8865" started-at="2018-11-01T10:28:51Z" finished-at="2018-11-01T10:29:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="without_entering_click_createAccount()[pri:1, instance:com.practice.testcases.SignUpTest@51399530]" name="without_entering_click_createAccount" duration-ms="3233" started-at="2018-11-01T10:29:00Z" description="Sign up-Balnk Data and click on Sign up Button" finished-at="2018-11-01T10:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- without_entering_click_createAccount -->
+        <test-method status="PASS" signature="remove_firstname()[pri:2, instance:com.practice.testcases.SignUpTest@51399530]" name="remove_firstname" duration-ms="6694" started-at="2018-11-01T10:29:03Z" description="Sign Up:Filled out all fields and Remove the first name field" finished-at="2018-11-01T10:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_firstname -->
+        <test-method status="PASS" signature="remove_lasttname()[pri:3, instance:com.practice.testcases.SignUpTest@51399530]" name="remove_lasttname" duration-ms="6588" started-at="2018-11-01T10:29:10Z" description="Sign Up:Filled out all fields and Remove the Last name field" finished-at="2018-11-01T10:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_lasttname -->
+        <test-method status="PASS" signature="remove_email()[pri:4, instance:com.practice.testcases.SignUpTest@51399530]" name="remove_email" duration-ms="6527" started-at="2018-11-01T10:29:16Z" description="Sign Up:Filled out all fields and Remove the email field" finished-at="2018-11-01T10:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_email -->
+        <test-method status="PASS" signature="remove_password()[pri:5, instance:com.practice.testcases.SignUpTest@51399530]" name="remove_password" duration-ms="7990" started-at="2018-11-01T10:29:23Z" description="Sign Up:Filled out all fields and Remove the password field" finished-at="2018-11-01T10:29:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.SignUpTest@51399530]" name="close" is-config="true" duration-ms="2407" started-at="2018-11-01T10:29:31Z" finished-at="2018-11-01T10:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.SignUpTest -->
+    </test> <!-- SignUp -->
+    <test name="Invalid Login" duration-ms="14126" started-at="2018-11-01T10:29:34Z" finished-at="2018-11-01T10:29:48Z">
+      <class name="com.practice.testcases.InvalidLoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.InvalidLoginTest@1573f9fc]" name="setup" is-config="true" duration-ms="6230" started-at="2018-11-01T10:29:34Z" finished-at="2018-11-01T10:29:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="balnk_fields()[pri:6, instance:com.practice.testcases.InvalidLoginTest@1573f9fc]" name="balnk_fields" duration-ms="2280" started-at="2018-11-01T10:29:40Z" description="Invalid Login - Bank data click on Login button" finished-at="2018-11-01T10:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- balnk_fields -->
+        <test-method status="PASS" signature="balnk_password_fields()[pri:7, instance:com.practice.testcases.InvalidLoginTest@1573f9fc]" name="balnk_password_fields" duration-ms="2297" started-at="2018-11-01T10:29:42Z" description="Invalid Login-Enter valid Email and Keep password Blank" finished-at="2018-11-01T10:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- balnk_password_fields -->
+        <test-method status="PASS" signature="balnk_Email_fields()[pri:8, instance:com.practice.testcases.InvalidLoginTest@1573f9fc]" name="balnk_Email_fields" duration-ms="3027" started-at="2018-11-01T10:29:44Z" description="Invalid Login-Enter valid PAssword and Keep Email Blank" finished-at="2018-11-01T10:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- balnk_Email_fields -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.InvalidLoginTest@1573f9fc]" name="close" is-config="true" duration-ms="269" started-at="2018-11-01T10:29:48Z" finished-at="2018-11-01T10:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.InvalidLoginTest -->
+    </test> <!-- Invalid Login -->
+    <test name="Login" duration-ms="10163" started-at="2018-11-01T10:29:48Z" finished-at="2018-11-01T10:29:58Z">
+      <class name="com.practice.testcases.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.LoginTest@10683d9d]" name="setup" is-config="true" duration-ms="6418" started-at="2018-11-01T10:29:48Z" finished-at="2018-11-01T10:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifu_Login()[pri:9, instance:com.practice.testcases.LoginTest@10683d9d]" name="verifu_Login" duration-ms="3527" started-at="2018-11-01T10:29:54Z" description="Valid Login" finished-at="2018-11-01T10:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifu_Login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.LoginTest@10683d9d]" name="close" is-config="true" duration-ms="210" started-at="2018-11-01T10:29:58Z" finished-at="2018-11-01T10:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.LoginTest -->
+    </test> <!-- Login -->
+    <test name="Data Driven" duration-ms="34687" started-at="2018-11-01T10:29:58Z" finished-at="2018-11-01T10:30:33Z">
+      <class name="com.practice.testcases.LoginDataDrivenTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.LoginDataDrivenTest@31190526]" name="setup" is-config="true" duration-ms="8502" started-at="2018-11-01T10:29:58Z" finished-at="2018-11-01T10:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:10, instance:com.practice.testcases.LoginDataDrivenTest@31190526]" name="login" duration-ms="110" started-at="2018-11-01T10:30:07Z" description="Data Driven Testing For Login " finished-at="2018-11-01T10:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@31190526]" name="logindata_driver" duration-ms="6582" started-at="2018-11-01T10:30:07Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@31190526]" name="logindata_driver" duration-ms="3423" started-at="2018-11-01T10:30:14Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:30:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kunal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@31190526]" name="logindata_driver" duration-ms="3313" started-at="2018-11-01T10:30:17Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@31190526]" name="logindata_driver" duration-ms="3353" started-at="2018-11-01T10:30:21Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@31190526]" name="logindata_driver" duration-ms="6723" started-at="2018-11-01T10:30:24Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.LoginDataDrivenTest@31190526]" name="close" is-config="true" duration-ms="2089" started-at="2018-11-01T10:30:31Z" finished-at="2018-11-01T10:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.LoginDataDrivenTest -->
+    </test> <!-- Data Driven -->
+    <test name="View Profile Data Driven" duration-ms="97544" started-at="2018-11-01T10:30:33Z" finished-at="2018-11-01T10:32:11Z">
+      <class name="com.practice.testcases.ViewProfileDatadrivenTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.ViewProfileDatadrivenTest@5bda8e08]" name="setup" is-config="true" duration-ms="6713" started-at="2018-11-01T10:30:33Z" finished-at="2018-11-01T10:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="viewprofile_login()[pri:12, instance:com.practice.testcases.ViewProfileDatadrivenTest@5bda8e08]" name="viewprofile_login" duration-ms="2076" started-at="2018-11-01T10:30:40Z" description="Data Driven Testing for View Profile" finished-at="2018-11-01T10:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_login -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@5bda8e08]" name="viewprofile_datadriven" duration-ms="33691" started-at="2018-11-01T10:30:42Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@5bda8e08]" name="viewprofile_datadriven" duration-ms="11393" started-at="2018-11-01T10:31:15Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kunal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@5bda8e08]" name="viewprofile_datadriven" duration-ms="11309" started-at="2018-11-01T10:31:27Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@5bda8e08]" name="viewprofile_datadriven" duration-ms="11348" started-at="2018-11-01T10:31:38Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@5bda8e08]" name="viewprofile_datadriven" duration-ms="20733" started-at="2018-11-01T10:31:50Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:32:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.ViewProfileDatadrivenTest@5bda8e08]" name="close" is-config="true" duration-ms="247" started-at="2018-11-01T10:32:10Z" finished-at="2018-11-01T10:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.ViewProfileDatadrivenTest -->
+    </test> <!-- View Profile Data Driven -->
+    <test name="View Profile " duration-ms="40357" started-at="2018-11-01T10:32:11Z" finished-at="2018-11-01T10:32:51Z">
+      <class name="com.practice.testcases.ViewProfileTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="setup" is-config="true" duration-ms="6860" started-at="2018-11-01T10:32:11Z" finished-at="2018-11-01T10:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:14, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="login" duration-ms="521" started-at="2018-11-01T10:32:18Z" description="Login for View Profile" finished-at="2018-11-01T10:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="edit_profile_remove_firstname()[pri:15, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="edit_profile_remove_firstname" duration-ms="17051" started-at="2018-11-01T10:32:18Z" description="View Profile -Remove First NAme" finished-at="2018-11-01T10:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_profile_remove_firstname -->
+        <test-method status="PASS" signature="remove_lastName()[pri:16, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="remove_lastName" duration-ms="2791" started-at="2018-11-01T10:32:35Z" description="View Profile -Remove LAst NAme" finished-at="2018-11-01T10:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_lastName -->
+        <test-method status="PASS" signature="remove_mobile()[pri:17, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="remove_mobile" duration-ms="2885" started-at="2018-11-01T10:32:38Z" description="View Profile -Remove Mobile" finished-at="2018-11-01T10:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_mobile -->
+        <test-method status="PASS" signature="remove_firstname_withoutfilling_cutrrent_password()[pri:18, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="remove_firstname_withoutfilling_cutrrent_password" duration-ms="2723" started-at="2018-11-01T10:32:41Z" description="View Profile -Remove First NAme and do not enter current password " finished-at="2018-11-01T10:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_firstname_withoutfilling_cutrrent_password -->
+        <test-method status="PASS" signature="remove_lasname_withoutfilling_cutrrent_password()[pri:19, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="remove_lasname_withoutfilling_cutrrent_password" duration-ms="2672" started-at="2018-11-01T10:32:43Z" description="View Profile -Remove last NAme and do not enter current password " finished-at="2018-11-01T10:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_lasname_withoutfilling_cutrrent_password -->
+        <test-method status="PASS" signature="remove_mobile_withoutfilling_cutrrent_password()[pri:20, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="remove_mobile_withoutfilling_cutrrent_password" duration-ms="2765" started-at="2018-11-01T10:32:46Z" description="View Profile -Remove mobile and do not enter current password " finished-at="2018-11-01T10:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_mobile_withoutfilling_cutrrent_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.ViewProfileTest@1fa121e2]" name="close" is-config="true" duration-ms="2070" started-at="2018-11-01T10:32:49Z" finished-at="2018-11-01T10:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.ViewProfileTest -->
+    </test> <!-- View Profile  -->
+    <test name="Contact " duration-ms="15358" started-at="2018-11-01T10:32:51Z" finished-at="2018-11-01T10:33:06Z">
+      <class name="com.practice.testcases.ContactTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.ContactTest@489115ef]" name="setup" is-config="true" duration-ms="6058" started-at="2018-11-01T10:32:51Z" finished-at="2018-11-01T10:32:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyConatctPageTitle()[pri:21, instance:com.practice.testcases.ContactTest@489115ef]" name="verifyConatctPageTitle" duration-ms="757" started-at="2018-11-01T10:32:57Z" description="Verify contact page Title" finished-at="2018-11-01T10:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConatctPageTitle -->
+        <test-method status="PASS" signature="removeName()[pri:22, instance:com.practice.testcases.ContactTest@489115ef]" name="removeName" duration-ms="2173" started-at="2018-11-01T10:32:58Z" description="Keeping Name field blank and click on send Message button" finished-at="2018-11-01T10:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeName -->
+        <test-method status="PASS" signature="removeEmail()[pri:23, instance:com.practice.testcases.ContactTest@489115ef]" name="removeEmail" duration-ms="1746" started-at="2018-11-01T10:33:00Z" description="Keeping Enail field blank and click on send Message button" finished-at="2018-11-01T10:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmail -->
+        <test-method status="PASS" signature="removeMobile()[pri:24, instance:com.practice.testcases.ContactTest@489115ef]" name="removeMobile" duration-ms="2581" started-at="2018-11-01T10:33:02Z" description="Keeping Mobile field blank and click on send Message button" finished-at="2018-11-01T10:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMobile -->
+        <test-method status="PASS" signature="removeMsg()[pri:25, instance:com.practice.testcases.ContactTest@489115ef]" name="removeMsg" duration-ms="1836" started-at="2018-11-01T10:33:04Z" description="Keeping Message field blank and click on send Message button" finished-at="2018-11-01T10:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMsg -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.ContactTest@489115ef]" name="close" is-config="true" duration-ms="192" started-at="2018-11-01T10:33:06Z" finished-at="2018-11-01T10:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.ContactTest -->
+    </test> <!-- Contact  -->
+    <test name="Listing" duration-ms="18980" started-at="2018-11-01T10:33:07Z" finished-at="2018-11-01T10:33:26Z">
+      <class name="com.practice.testcases.ListingTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.ListingTest@4b2bac3f]" name="setup" is-config="true" duration-ms="9435" started-at="2018-11-01T10:33:07Z" finished-at="2018-11-01T10:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listingpageTest()[pri:26, instance:com.practice.testcases.ListingTest@4b2bac3f]" name="listingpageTest" duration-ms="1768" started-at="2018-11-01T10:33:16Z" finished-at="2018-11-01T10:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listingpageTest -->
+        <test-method status="PASS" signature="verifyListingPageTitle()[pri:27, instance:com.practice.testcases.ListingTest@4b2bac3f]" name="verifyListingPageTitle" duration-ms="169" started-at="2018-11-01T10:33:18Z" finished-at="2018-11-01T10:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListingPageTitle -->
+        <test-method status="PASS" signature="verifyListing_Sort()[pri:28, instance:com.practice.testcases.ListingTest@4b2bac3f]" name="verifyListing_Sort" duration-ms="1341" started-at="2018-11-01T10:33:18Z" finished-at="2018-11-01T10:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListing_Sort -->
+        <test-method status="PASS" signature="verifyListing_lowtohigh()[pri:29, instance:com.practice.testcases.ListingTest@4b2bac3f]" name="verifyListing_lowtohigh" duration-ms="3060" started-at="2018-11-01T10:33:19Z" finished-at="2018-11-01T10:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListing_lowtohigh -->
+        <test-method status="PASS" signature="verifyListing_hightolow()[pri:30, instance:com.practice.testcases.ListingTest@4b2bac3f]" name="verifyListing_hightolow" duration-ms="2991" started-at="2018-11-01T10:33:22Z" finished-at="2018-11-01T10:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListing_hightolow -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.ListingTest@4b2bac3f]" name="close" is-config="true" duration-ms="200" started-at="2018-11-01T10:33:25Z" finished-at="2018-11-01T10:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.ListingTest -->
+    </test> <!-- Listing -->
+    <test name="End2End" duration-ms="124742" started-at="2018-11-01T10:33:26Z" finished-at="2018-11-01T10:35:30Z">
+      <class name="com.practice.testcases.E2ETest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.E2ETest@367ffa75]" name="setup" is-config="true" duration-ms="5501" started-at="2018-11-01T10:33:26Z" finished-at="2018-11-01T10:33:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignUp()[pri:31, instance:com.practice.testcases.E2ETest@367ffa75]" name="SignUp" duration-ms="30712" started-at="2018-11-01T10:33:31Z" finished-at="2018-11-01T10:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="invalidLogin()[pri:32, instance:com.practice.testcases.E2ETest@367ffa75]" name="invalidLogin" duration-ms="7356" started-at="2018-11-01T10:34:02Z" finished-at="2018-11-01T10:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="validLogin()[pri:33, instance:com.practice.testcases.E2ETest@367ffa75]" name="validLogin" duration-ms="6510" started-at="2018-11-01T10:34:09Z" finished-at="2018-11-01T10:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@367ffa75]" name="loginDataDriven" duration-ms="7529" started-at="2018-11-01T10:34:16Z" data-provider="logintest" finished-at="2018-11-01T10:34:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@367ffa75]" name="loginDataDriven" duration-ms="4352" started-at="2018-11-01T10:34:23Z" data-provider="logintest" finished-at="2018-11-01T10:34:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kunal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@367ffa75]" name="loginDataDriven" duration-ms="4311" started-at="2018-11-01T10:34:28Z" data-provider="logintest" finished-at="2018-11-01T10:34:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@367ffa75]" name="loginDataDriven" duration-ms="4287" started-at="2018-11-01T10:34:32Z" data-provider="logintest" finished-at="2018-11-01T10:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@367ffa75]" name="loginDataDriven" duration-ms="8318" started-at="2018-11-01T10:34:36Z" data-provider="logintest" finished-at="2018-11-01T10:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="viewProfile()[pri:35, instance:com.practice.testcases.E2ETest@367ffa75]" name="viewProfile" duration-ms="29870" started-at="2018-11-01T10:34:45Z" finished-at="2018-11-01T10:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProfile -->
+        <test-method status="PASS" signature="contact()[pri:36, instance:com.practice.testcases.E2ETest@367ffa75]" name="contact" duration-ms="7441" started-at="2018-11-01T10:35:14Z" finished-at="2018-11-01T10:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method status="PASS" signature="verifyListing()[pri:37, instance:com.practice.testcases.E2ETest@367ffa75]" name="verifyListing" duration-ms="8344" started-at="2018-11-01T10:35:22Z" finished-at="2018-11-01T10:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListing -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.E2ETest@367ffa75]" name="close" is-config="true" duration-ms="172" started-at="2018-11-01T10:35:30Z" finished-at="2018-11-01T10:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.E2ETest -->
+    </test> <!-- End2End -->
+    <test name="firefox SignUp" duration-ms="54927" started-at="2018-11-01T10:35:31Z" finished-at="2018-11-01T10:36:25Z">
+      <class name="com.practice.testcases.SignUpTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.SignUpTest@5dda768f]" name="setup" is-config="true" duration-ms="16011" started-at="2018-11-01T10:35:31Z" finished-at="2018-11-01T10:35:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="without_entering_click_createAccount()[pri:1, instance:com.practice.testcases.SignUpTest@5dda768f]" name="without_entering_click_createAccount" duration-ms="3842" started-at="2018-11-01T10:35:47Z" description="Sign up-Balnk Data and click on Sign up Button" finished-at="2018-11-01T10:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- without_entering_click_createAccount -->
+        <test-method status="PASS" signature="remove_firstname()[pri:2, instance:com.practice.testcases.SignUpTest@5dda768f]" name="remove_firstname" duration-ms="7061" started-at="2018-11-01T10:35:50Z" description="Sign Up:Filled out all fields and Remove the first name field" finished-at="2018-11-01T10:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_firstname -->
+        <test-method status="PASS" signature="remove_lasttname()[pri:3, instance:com.practice.testcases.SignUpTest@5dda768f]" name="remove_lasttname" duration-ms="6777" started-at="2018-11-01T10:35:57Z" description="Sign Up:Filled out all fields and Remove the Last name field" finished-at="2018-11-01T10:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_lasttname -->
+        <test-method status="PASS" signature="remove_email()[pri:4, instance:com.practice.testcases.SignUpTest@5dda768f]" name="remove_email" duration-ms="6715" started-at="2018-11-01T10:36:04Z" description="Sign Up:Filled out all fields and Remove the email field" finished-at="2018-11-01T10:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_email -->
+        <test-method status="PASS" signature="remove_password()[pri:5, instance:com.practice.testcases.SignUpTest@5dda768f]" name="remove_password" duration-ms="10286" started-at="2018-11-01T10:36:11Z" description="Sign Up:Filled out all fields and Remove the password field" finished-at="2018-11-01T10:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.SignUpTest@5dda768f]" name="close" is-config="true" duration-ms="4212" started-at="2018-11-01T10:36:21Z" finished-at="2018-11-01T10:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.SignUpTest -->
+    </test> <!-- firefox SignUp -->
+    <test name="firefox Invalid Login" duration-ms="26330" started-at="2018-11-01T10:36:26Z" finished-at="2018-11-01T10:36:52Z">
+      <class name="com.practice.testcases.InvalidLoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.InvalidLoginTest@752325ad]" name="setup" is-config="true" duration-ms="10322" started-at="2018-11-01T10:36:26Z" finished-at="2018-11-01T10:36:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="balnk_fields()[pri:6, instance:com.practice.testcases.InvalidLoginTest@752325ad]" name="balnk_fields" duration-ms="2872" started-at="2018-11-01T10:36:36Z" description="Invalid Login - Bank data click on Login button" finished-at="2018-11-01T10:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- balnk_fields -->
+        <test-method status="PASS" signature="balnk_password_fields()[pri:7, instance:com.practice.testcases.InvalidLoginTest@752325ad]" name="balnk_password_fields" duration-ms="2808" started-at="2018-11-01T10:36:39Z" description="Invalid Login-Enter valid Email and Keep password Blank" finished-at="2018-11-01T10:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- balnk_password_fields -->
+        <test-method status="PASS" signature="balnk_Email_fields()[pri:8, instance:com.practice.testcases.InvalidLoginTest@752325ad]" name="balnk_Email_fields" duration-ms="6216" started-at="2018-11-01T10:36:42Z" description="Invalid Login-Enter valid PAssword and Keep Email Blank" finished-at="2018-11-01T10:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- balnk_Email_fields -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.InvalidLoginTest@752325ad]" name="close" is-config="true" duration-ms="4090" started-at="2018-11-01T10:36:48Z" finished-at="2018-11-01T10:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.InvalidLoginTest -->
+    </test> <!-- firefox Invalid Login -->
+    <test name="firefox Login" duration-ms="17647" started-at="2018-11-01T10:36:52Z" finished-at="2018-11-01T10:37:10Z">
+      <class name="com.practice.testcases.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.LoginTest@65e98b1c]" name="setup" is-config="true" duration-ms="11742" started-at="2018-11-01T10:36:52Z" finished-at="2018-11-01T10:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifu_Login()[pri:9, instance:com.practice.testcases.LoginTest@65e98b1c]" name="verifu_Login" duration-ms="4390" started-at="2018-11-01T10:37:04Z" description="Valid Login" finished-at="2018-11-01T10:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifu_Login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.LoginTest@65e98b1c]" name="close" is-config="true" duration-ms="1464" started-at="2018-11-01T10:37:08Z" finished-at="2018-11-01T10:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.LoginTest -->
+    </test> <!-- firefox Login -->
+    <test name="firefox Data Driven" duration-ms="43639" started-at="2018-11-01T10:37:10Z" finished-at="2018-11-01T10:37:53Z">
+      <class name="com.practice.testcases.LoginDataDrivenTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.LoginDataDrivenTest@b2c9a9c]" name="setup" is-config="true" duration-ms="17292" started-at="2018-11-01T10:37:10Z" finished-at="2018-11-01T10:37:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:10, instance:com.practice.testcases.LoginDataDrivenTest@b2c9a9c]" name="login" duration-ms="189" started-at="2018-11-01T10:37:27Z" description="Data Driven Testing For Login " finished-at="2018-11-01T10:37:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@b2c9a9c]" name="logindata_driver" duration-ms="6825" started-at="2018-11-01T10:37:28Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@b2c9a9c]" name="logindata_driver" duration-ms="3431" started-at="2018-11-01T10:37:34Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:37:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kunal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@b2c9a9c]" name="logindata_driver" duration-ms="3313" started-at="2018-11-01T10:37:38Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:37:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@b2c9a9c]" name="logindata_driver" duration-ms="3384" started-at="2018-11-01T10:37:41Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="logindata_driver(java.lang.String, java.lang.String)[pri:11, instance:com.practice.testcases.LoginDataDrivenTest@b2c9a9c]" name="logindata_driver" duration-ms="7005" started-at="2018-11-01T10:37:44Z" description="Data Driven Testing For Login" data-provider="logintest" finished-at="2018-11-01T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata_driver -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.LoginDataDrivenTest@b2c9a9c]" name="close" is-config="true" duration-ms="1947" started-at="2018-11-01T10:37:51Z" finished-at="2018-11-01T10:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.LoginDataDrivenTest -->
+    </test> <!-- firefox Data Driven -->
+    <test name="firefox View Profile Data Driven" duration-ms="99236" started-at="2018-11-01T10:37:54Z" finished-at="2018-11-01T10:39:33Z">
+      <class name="com.practice.testcases.ViewProfileDatadrivenTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.ViewProfileDatadrivenTest@7770f470]" name="setup" is-config="true" duration-ms="11806" started-at="2018-11-01T10:37:54Z" finished-at="2018-11-01T10:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="viewprofile_login()[pri:12, instance:com.practice.testcases.ViewProfileDatadrivenTest@7770f470]" name="viewprofile_login" duration-ms="2104" started-at="2018-11-01T10:38:05Z" description="Data Driven Testing for View Profile" finished-at="2018-11-01T10:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_login -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@7770f470]" name="viewprofile_datadriven" duration-ms="28538" started-at="2018-11-01T10:38:08Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:38:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@7770f470]" name="viewprofile_datadriven" duration-ms="11452" started-at="2018-11-01T10:38:36Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:38:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kunal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@7770f470]" name="viewprofile_datadriven" duration-ms="11463" started-at="2018-11-01T10:38:48Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@7770f470]" name="viewprofile_datadriven" duration-ms="11410" started-at="2018-11-01T10:38:59Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:39:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="viewprofile_datadriven(java.lang.String, java.lang.String)[pri:13, instance:com.practice.testcases.ViewProfileDatadrivenTest@7770f470]" name="viewprofile_datadriven" duration-ms="21141" started-at="2018-11-01T10:39:10Z" data-provider="viewprofiledata" finished-at="2018-11-01T10:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewprofile_datadriven -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.ViewProfileDatadrivenTest@7770f470]" name="close" is-config="true" duration-ms="1283" started-at="2018-11-01T10:39:32Z" finished-at="2018-11-01T10:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.ViewProfileDatadrivenTest -->
+    </test> <!-- firefox View Profile Data Driven -->
+    <test name="firefox View Profile" duration-ms="37902" started-at="2018-11-01T10:39:33Z" finished-at="2018-11-01T10:40:11Z">
+      <class name="com.practice.testcases.ViewProfileTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="setup" is-config="true" duration-ms="10432" started-at="2018-11-01T10:39:33Z" finished-at="2018-11-01T10:39:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:14, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="login" duration-ms="594" started-at="2018-11-01T10:39:43Z" description="Login for View Profile" finished-at="2018-11-01T10:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="edit_profile_remove_firstname()[pri:15, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="edit_profile_remove_firstname" duration-ms="12286" started-at="2018-11-01T10:39:44Z" description="View Profile -Remove First NAme" finished-at="2018-11-01T10:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_profile_remove_firstname -->
+        <test-method status="PASS" signature="remove_lastName()[pri:16, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="remove_lastName" duration-ms="2649" started-at="2018-11-01T10:39:56Z" description="View Profile -Remove LAst NAme" finished-at="2018-11-01T10:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_lastName -->
+        <test-method status="PASS" signature="remove_mobile()[pri:17, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="remove_mobile" duration-ms="2733" started-at="2018-11-01T10:39:59Z" description="View Profile -Remove Mobile" finished-at="2018-11-01T10:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_mobile -->
+        <test-method status="PASS" signature="remove_firstname_withoutfilling_cutrrent_password()[pri:18, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="remove_firstname_withoutfilling_cutrrent_password" duration-ms="2550" started-at="2018-11-01T10:40:02Z" description="View Profile -Remove First NAme and do not enter current password " finished-at="2018-11-01T10:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_firstname_withoutfilling_cutrrent_password -->
+        <test-method status="PASS" signature="remove_lasname_withoutfilling_cutrrent_password()[pri:19, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="remove_lasname_withoutfilling_cutrrent_password" duration-ms="2568" started-at="2018-11-01T10:40:04Z" description="View Profile -Remove last NAme and do not enter current password " finished-at="2018-11-01T10:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_lasname_withoutfilling_cutrrent_password -->
+        <test-method status="PASS" signature="remove_mobile_withoutfilling_cutrrent_password()[pri:20, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="remove_mobile_withoutfilling_cutrrent_password" duration-ms="2624" started-at="2018-11-01T10:40:07Z" description="View Profile -Remove mobile and do not enter current password " finished-at="2018-11-01T10:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_mobile_withoutfilling_cutrrent_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.ViewProfileTest@7bedc48a]" name="close" is-config="true" duration-ms="1446" started-at="2018-11-01T10:40:09Z" finished-at="2018-11-01T10:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.ViewProfileTest -->
+    </test> <!-- firefox View Profile -->
+    <test name="Firefox Contact " duration-ms="19162" started-at="2018-11-01T10:40:11Z" finished-at="2018-11-01T10:40:30Z">
+      <class name="com.practice.testcases.ContactTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.ContactTest@37ceb1df]" name="setup" is-config="true" duration-ms="10332" started-at="2018-11-01T10:40:11Z" finished-at="2018-11-01T10:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyConatctPageTitle()[pri:21, instance:com.practice.testcases.ContactTest@37ceb1df]" name="verifyConatctPageTitle" duration-ms="969" started-at="2018-11-01T10:40:21Z" description="Verify contact page Title" finished-at="2018-11-01T10:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConatctPageTitle -->
+        <test-method status="PASS" signature="removeName()[pri:22, instance:com.practice.testcases.ContactTest@37ceb1df]" name="removeName" duration-ms="1625" started-at="2018-11-01T10:40:22Z" description="Keeping Name field blank and click on send Message button" finished-at="2018-11-01T10:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeName -->
+        <test-method status="PASS" signature="removeEmail()[pri:23, instance:com.practice.testcases.ContactTest@37ceb1df]" name="removeEmail" duration-ms="1382" started-at="2018-11-01T10:40:24Z" description="Keeping Enail field blank and click on send Message button" finished-at="2018-11-01T10:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmail -->
+        <test-method status="PASS" signature="removeMobile()[pri:24, instance:com.practice.testcases.ContactTest@37ceb1df]" name="removeMobile" duration-ms="1438" started-at="2018-11-01T10:40:25Z" description="Keeping Mobile field blank and click on send Message button" finished-at="2018-11-01T10:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMobile -->
+        <test-method status="PASS" signature="removeMsg()[pri:25, instance:com.practice.testcases.ContactTest@37ceb1df]" name="removeMsg" duration-ms="1777" started-at="2018-11-01T10:40:27Z" description="Keeping Message field blank and click on send Message button" finished-at="2018-11-01T10:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMsg -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.ContactTest@37ceb1df]" name="close" is-config="true" duration-ms="1623" started-at="2018-11-01T10:40:28Z" finished-at="2018-11-01T10:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.ContactTest -->
+    </test> <!-- Firefox Contact  -->
+    <test name="firefox Listing" duration-ms="20427" started-at="2018-11-01T10:40:30Z" finished-at="2018-11-01T10:40:51Z">
+      <class name="com.practice.testcases.ListingTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.ListingTest@3d34d211]" name="setup" is-config="true" duration-ms="9546" started-at="2018-11-01T10:40:30Z" finished-at="2018-11-01T10:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listingpageTest()[pri:26, instance:com.practice.testcases.ListingTest@3d34d211]" name="listingpageTest" duration-ms="1783" started-at="2018-11-01T10:40:40Z" finished-at="2018-11-01T10:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listingpageTest -->
+        <test-method status="PASS" signature="verifyListingPageTitle()[pri:27, instance:com.practice.testcases.ListingTest@3d34d211]" name="verifyListingPageTitle" duration-ms="49" started-at="2018-11-01T10:40:42Z" finished-at="2018-11-01T10:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListingPageTitle -->
+        <test-method status="PASS" signature="verifyListing_Sort()[pri:28, instance:com.practice.testcases.ListingTest@3d34d211]" name="verifyListing_Sort" duration-ms="1340" started-at="2018-11-01T10:40:42Z" finished-at="2018-11-01T10:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListing_Sort -->
+        <test-method status="PASS" signature="verifyListing_lowtohigh()[pri:29, instance:com.practice.testcases.ListingTest@3d34d211]" name="verifyListing_lowtohigh" duration-ms="3206" started-at="2018-11-01T10:40:43Z" finished-at="2018-11-01T10:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListing_lowtohigh -->
+        <test-method status="PASS" signature="verifyListing_hightolow()[pri:30, instance:com.practice.testcases.ListingTest@3d34d211]" name="verifyListing_hightolow" duration-ms="3067" started-at="2018-11-01T10:40:46Z" finished-at="2018-11-01T10:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListing_hightolow -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.ListingTest@3d34d211]" name="close" is-config="true" duration-ms="1422" started-at="2018-11-01T10:40:49Z" finished-at="2018-11-01T10:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.ListingTest -->
+    </test> <!-- firefox Listing -->
+    <test name="firefox End2End" duration-ms="148363" started-at="2018-11-01T10:40:51Z" finished-at="2018-11-01T10:43:19Z">
+      <class name="com.practice.testcases.E2ETest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.E2ETest@63475ace]" name="setup" is-config="true" duration-ms="9121" started-at="2018-11-01T10:40:51Z" finished-at="2018-11-01T10:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignUp()[pri:31, instance:com.practice.testcases.E2ETest@63475ace]" name="SignUp" duration-ms="33513" started-at="2018-11-01T10:41:00Z" finished-at="2018-11-01T10:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="invalidLogin()[pri:32, instance:com.practice.testcases.E2ETest@63475ace]" name="invalidLogin" duration-ms="10473" started-at="2018-11-01T10:41:33Z" finished-at="2018-11-01T10:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="validLogin()[pri:33, instance:com.practice.testcases.E2ETest@63475ace]" name="validLogin" duration-ms="8082" started-at="2018-11-01T10:41:44Z" finished-at="2018-11-01T10:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@63475ace]" name="loginDataDriven" duration-ms="7794" started-at="2018-11-01T10:41:52Z" data-provider="logintest" finished-at="2018-11-01T10:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@63475ace]" name="loginDataDriven" duration-ms="4342" started-at="2018-11-01T10:42:00Z" data-provider="logintest" finished-at="2018-11-01T10:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kunal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@63475ace]" name="loginDataDriven" duration-ms="4324" started-at="2018-11-01T10:42:04Z" data-provider="logintest" finished-at="2018-11-01T10:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@63475ace]" name="loginDataDriven" duration-ms="4335" started-at="2018-11-01T10:42:08Z" data-provider="logintest" finished-at="2018-11-01T10:42:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="loginDataDriven(java.lang.String, java.lang.String)[pri:34, instance:com.practice.testcases.E2ETest@63475ace]" name="loginDataDriven" duration-ms="7924" started-at="2018-11-01T10:42:13Z" data-provider="logintest" finished-at="2018-11-01T10:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kd@narola.email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="viewProfile()[pri:35, instance:com.practice.testcases.E2ETest@63475ace]" name="viewProfile" duration-ms="34792" started-at="2018-11-01T10:42:21Z" finished-at="2018-11-01T10:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProfile -->
+        <test-method status="PASS" signature="contact()[pri:36, instance:com.practice.testcases.E2ETest@63475ace]" name="contact" duration-ms="9342" started-at="2018-11-01T10:42:55Z" finished-at="2018-11-01T10:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method status="PASS" signature="verifyListing()[pri:37, instance:com.practice.testcases.E2ETest@63475ace]" name="verifyListing" duration-ms="11789" started-at="2018-11-01T10:43:05Z" finished-at="2018-11-01T10:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListing -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.practice.testcases.E2ETest@63475ace]" name="close" is-config="true" duration-ms="2473" started-at="2018-11-01T10:43:17Z" finished-at="2018-11-01T10:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.practice.testcases.E2ETest -->
+    </test> <!-- firefox End2End -->
+  </suite> <!-- TestSuite -->
+</testng-results>
